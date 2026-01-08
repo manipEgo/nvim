@@ -5,6 +5,7 @@ require("nvim-treesitter").install({
 	"luadoc",
 	"python",
 	"vim",
+  "vimdoc",
 	"yaml",
 })
 
@@ -16,6 +17,7 @@ vim.api.nvim_create_autocmd("FileType", {
 		"luadoc",
 		"python",
 		"vim",
+    "vimdoc",
 		"yaml",
 	},
 	callback = function()
