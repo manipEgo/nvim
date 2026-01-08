@@ -1,4 +1,4 @@
-vim.api.nvim_create_user_command("Tree", "NvimTreeToggle", {})
+vim.api.nvim_create_user_command("T", "NvimTreeToggle", {})
 
 return {
 	"nvim-tree/nvim-tree.lua",
